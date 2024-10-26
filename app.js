@@ -1,4 +1,4 @@
-import { addAlert, loadAlerts } from './firebaseConfig.js';  // Asegúrate de que la ruta sea correcta
+import { addAlert, loadAlerts } from './firebaseConfig.js'; 
 
 // Código para manejar la geolocalización
 if (navigator.geolocation) {
