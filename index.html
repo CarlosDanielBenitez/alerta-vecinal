@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alerta Vecinal</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Alerta Vecinal: Reporta Robos en Tu Área</h1>
+  </header>
+
+  <div id="map"></div>
+
+  <div id="form">
+    <h3>Reportar Robo</h3>
+    <textarea id="description" placeholder="Descripción del incidente..."></textarea>
+    <button id="submitAlert">Enviar Alerta</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Alerta Vecinal - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>
